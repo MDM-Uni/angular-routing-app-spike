@@ -1,0 +1,10 @@
+<h1>Angular Router App</h1>
+<!-- Questo nav ti fornisce i link da cliccare, che indicano al router quale percorso usare (definito nella costante route in AppRoutingModule) -->
+<nav>
+  <ul>
+    <li><a routerLink="/first-component" routerLinkActive="active">First Component</a></li>
+    <li><a routerLink="/second-component" routerLinkActive="active">Second Component</a></li>
+  </ul>
+</nav>
+<!-- Le viste instradate vengono visualizzate nel <router-outlet>-->
+<router-outlet></router-outlet>
